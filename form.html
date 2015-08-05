@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Learning Forms</title>
+  </head>
+  <body>
+    <form method="GET" action="/form.html">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="q" placeholder="Enter your search term">
+      
+      <input type="submit" value="Search">
+
+
+    </form>
+    
+    <br><br><br><br>
+
+    <form method="POST" action="/form.html">
+      <label for="email"> Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+      <br>
+      <label for="password"> Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+
+
+      <br>
+      <textarea name="comments" id="comments" cols="20" rows="5"> Here is a pre-written comment.</textarea>
+      <br>
+      <button>Login</button>
+
+    </form>
+
+
+
+  </body> 
